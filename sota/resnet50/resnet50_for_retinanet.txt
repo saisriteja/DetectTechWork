@@ -29,7 +29,7 @@ model_config {
   use_bias: False
   all_projections: True
   use_pooling: False
-  use_imagenet_head: True
+  #use_imagenet_head: True
   input_image_size: "3,224,224"
 }
 train_config {

@@ -29,7 +29,7 @@ model_config {
   use_bias: False
   use_pooling: True
   dropout: 0.0
-  use_imagenet_head: True
+  #use_imagenet_head: True
   resize_interpolation_method: BICUBIC
   input_image_size: "3,224,224"
 }

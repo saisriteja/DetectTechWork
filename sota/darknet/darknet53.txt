@@ -27,7 +27,7 @@ model_config {
   n_layers: 53
   use_batch_norm: True
   use_bias: False
-  use_imagenet_head: True
+  #use_imagenet_head: True
   all_projections: False
   use_pooling: True
   input_image_size: "3,224,224"

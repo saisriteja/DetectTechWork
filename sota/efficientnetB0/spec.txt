@@ -25,7 +25,7 @@
 model_config {
   arch: "efficientnet_b0"
   use_bias: False
-  use_imagenet_head: True
+  #use_imagenet_head: True
   resize_interpolation_method: BICUBIC
   input_image_size: "3,224,224"
 }
