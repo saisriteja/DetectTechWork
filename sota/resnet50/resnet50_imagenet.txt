@@ -34,8 +34,8 @@ model_config {
   input_image_size: "3,224,224"
 }
 train_config {
-  train_dataset_path: "/home/saiteja/DetectTechWork/BasicKnowledge/week3/New Masks Dataset/train"
-  val_dataset_path: "/home/saiteja/DetectTechWork/BasicKnowledge/week3/New Masks Dataset/val"
+  train_dataset_path: "/home/saiteja/DetectTechWork/New Masks Dataset/train"
+  val_dataset_path: "/home/saiteja/DetectTechWork/New Masks Dataset/val"
   optimizer {
     sgd {
     lr: 0.05
@@ -64,7 +64,7 @@ train_config {
   label_smoothing: 0.0
 }
 eval_config {
-  eval_dataset_path: "/home/saiteja/DetectTechWork/BasicKnowledge/week3/New Masks Dataset/val"
+  eval_dataset_path: "/home/saiteja/DetectTechWork/New Masks Dataset/val"
   model_path: "/workspace/tao-experiments/classification/resnet50/weights/resnet_120.tlt"
   top_k: 1
   batch_size: 64

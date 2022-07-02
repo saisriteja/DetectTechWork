@@ -31,8 +31,8 @@ model_config {
 }
 train_config {
   preprocess_mode: "caffe"
-  train_dataset_path: "/home/saiteja/DetectTechWork/BasicKnowledge/week3/New Masks Dataset/train"
-  val_dataset_path: "/home/saiteja/DetectTechWork/BasicKnowledge/week3/New Masks Dataset/val"
+  train_dataset_path: "/home/saiteja/DetectTechWork/New Masks Dataset/train"
+  val_dataset_path: "/home/saiteja/DetectTechWork/New Masks Dataset/val"
   optimizer {
     sgd {
     lr: 0.01

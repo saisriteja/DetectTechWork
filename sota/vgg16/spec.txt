@@ -35,8 +35,8 @@ model_config {
 }
 train_config {
   preprocess_mode: "caffe"
-  train_dataset_path: "/home/saiteja/DetectTechWork/BasicKnowledge/week3/New Masks Dataset/train"
-  val_dataset_path: "/home/saiteja/DetectTechWork/BasicKnowledge/week3/New Masks Dataset/val"
+  train_dataset_path: "/home/saiteja/DetectTechWork/New Masks Dataset/train"
+  val_dataset_path: "/home/saiteja/DetectTechWork/New Masks Dataset/val"
   optimizer {
     sgd {
     lr: 0.01
@@ -67,7 +67,7 @@ train_config {
   enable_center_crop: True
 }
 eval_config {
-  eval_dataset_path: "/home/saiteja/DetectTechWork/BasicKnowledge/week3/New Masks Dataset/val"
+  eval_dataset_path: "/home/saiteja/DetectTechWork/New Masks Dataset/val"
   model_path: "/workspace/tao-experiments/classification/vgg16/weights/vgg_080.tlt"
   top_k: 1
   batch_size: 32
